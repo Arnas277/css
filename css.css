@@ -1,0 +1,72 @@
+
+:root {
+  --main-color: #EEE;
+  --box-border: 1px 30px 1px 1px;
+  --box-activeBorder: 2px 35px 2px 2px;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: var(--main-color);
+}
+
+.u-textDecorNone {
+	text-decoration: none;
+}
+
+.MainContainer {
+	background-color: var(--main-color);
+	width: 60%;
+	margin: 0 auto;
+}
+
+.MainContainer-incorrectBox {
+	background-color: #fff;
+	font-size:12px;
+	line-height: 3;
+	border-width: var(--box-border);
+	border-style: solid;
+	border-color: #f50000;
+	border-radius: 5px;
+	padding: 2%;
+	margin: 10px 0 20px 0;
+	border-radius: 8px;
+}
+
+.MainContainer-incorrectBox:hover {
+	border-width: var(--box-activeBorder);
+}
+
+.MainContainer-correctBox {
+	background-color: #fff;
+	font-size:12px;
+	line-height: 3;
+	border-width: var(--box-border);
+	border-style: solid;
+	border-color: #00c210;
+	border-radius: 5px;
+	padding: 2%;
+	margin: 10px 0 20px 0;
+	border-radius: 8px;
+}
+.MainContainer-correctBox:hover {
+	border-width: var(--box-activeBorder);
+}
+
+.MainContainer-continueBtn {
+	background-color: #00a2c2;
+	color: #fff;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	border: 0;
+	border-radius: 10px;
+	float: right;
+}
+.MainContainer-continueBtn:hover {
+	background-color: #009090;
+}
